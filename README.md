@@ -16,7 +16,6 @@ This task is about extracting "HOT" recipes from a Recipe dataset as it filters 
      ```
    - To run the Python script:
      ```bash
-     cd recipies-etl
      python case_study.py
      ```
 
