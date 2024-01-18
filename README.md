@@ -10,17 +10,18 @@ This task is about extracting "HOT" recipes from a Recipe dataset as it filters 
 
 2 **Running the Script:**
    - The python version used for the script is 3.9.4.
-   - The required modules should be installed by running:
-     ```bash
-     pip install -r requirements.txt
-     ```
    - To run the Python script:
      ```bash
+     cd directory_name
+     venv\Scripts\activate (windows)
+     source venv/bin/activate (Linux)
+     pip install -r requirements.txt
      python case_study.py
      ```
 
-1. **The Output:**
-   - The resulting CSV file, named `chilies_recipe.csv`, will be saved in the same directory as recipies-etl.
+
+3. **The Output:**
+   - The resulting CSV file, named `chilies_recipe.csv`, will be saved in the same directory.
 
 ## Script Details
 
@@ -28,8 +29,4 @@ This task is about extracting "HOT" recipes from a Recipe dataset as it filters 
   - It Filters out recipes containing "Chilies" and also considers the misspellings and singular form of the word.
   - Adds a difficulty column based on the sum of prepTime and cookTime of a recipe.
 
-## Requirements
 
-Install all the required modules using:
-```bash
-pip install -r requirements.txt
