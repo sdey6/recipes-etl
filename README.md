@@ -20,7 +20,7 @@ This task is about extracting "HOT" recipes from a Recipe dataset as it filters 
      ```
 
 1. **The Output:**
-   - The resulted CSV file, named `recipes.csv`, will be saved in the same directory as recipies-etl.
+   - The resulting CSV file, named `chilies_recipe.csv`, will be saved in the same directory as recipies-etl.
 
 ## Script Details
 
